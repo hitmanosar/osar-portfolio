@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+   
+}
+
+html{
+    scroll-behavior: smooth;
+    cursor: url('photo/mouse.png'),default;
+   
+}
+
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+
+
+
+.dd{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: red;
+}
+
+.dd:hover{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 100px white,  0px 0px 50px white ;
+    color: red;
+    cursor: url('photo/mouse.png'),default;
+}
+
+i{
+    color: red;
+}
+
+a{
+    color: red;
+}
+
+.mp{
+    transition: all 1s;
+}
+
+
+.mp:hover{
+    filter: drop-shadow(0px 0px 50px white);
+    transform: translate(10px);
+}
+
+.logo1{
+    animation-name: move;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+@keyframes move {
+    0%{
+        filter: drop-shadow(0px 0px  0px skyblue) drop-shadow(0px 0px  0px skyblue);
+    }
+
+    100%{
+        filter: drop-shadow(0px 0px  100px skyblue) drop-shadow(0px 0px  50px skyblue);
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.bg{
+    background: url('photo/bg.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+.to span{
+    
+    background-color: aliceblue;
+    padding: 0.8px;
+    font-size: 20px;
+    
+}
+
+
+
+.to span:nth-child(2){
+    background-color: orangered;
+}
+
+.to span:nth-child(3){
+    background-color: skyblue;
+}
+
+
+.to span:nth-child(4){
+    background-color: #41B883;
+    
+}
+
+.to span:nth-child(5){
+    background-color: orange;
+    color: white;
+}
+
+
+.to span:nth-child(6){
+    background-color: #474A8A;
+    color: white;
+}
+
+
+.to span:nth-child(7){
+    background-color: #00758f;
+    color: white;
+}
+
+
+.to span:nth-child(8){
+    background-color: skyblue;
+    color: black;
+}
+
+
+.to span:nth-child(9){
+    background-color: yellow;
+    color: black;
+}
+
+
+.to span:nth-child(10){
+    background-color: black;
+    color: #00FF00;
+}
+
+.to span:nth-child(11){
+    background-color: purple;
+    color: white;
+}
+
+
+
+.to span:nth-child(12){
+    background-color: black;
+    color: white;
+}
+
+
+.to span:nth-child(13){
+    background-color: black;
+    color: #00ff00;
+}
+
+.to span:nth-child(14){
+    background-color: #00a4ef;
+    color: white;
+}
+
+.pro{
+    width: 90%;
+}
+
+.con{
+    background: url('photo/cons.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+}
+
+
+.footer{
+    background-color: darkblue;
+    color: white;
+}
+
+.hr{
+    width: 90%;
+    text-align: center;
+    margin: 0px auto;
+    height: 3px;
+    background-color: yellow;
+}
+
+.con h4{
+    font-size: 3vw;
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2px;
+}
+
+ .foot span i{
+    color: silver;
+    
+    padding: 10px; 
+    cursor: url('photo/mouse.png'),default;
+    user-select: none;
+    border-radius: 100%;
+    transition: all 0.8s;
+}
+
+
+.f:hover{
+    background-color: blue;
+    color: white;
+    transform: translate(0px,-5px);
+    
+}
+
+ .te:hover{
+    background-color: #0088CC;
+    color: white;
+    transform: translate(0px,-5px);
+}
+
+
+ .you:hover{
+    background-color: red;
+  color: white;
+  transform: translate(0px,-5px);
+} 
+
+
+.in:hover{
+    background-color: rgb(228, 64, 95);
+    color: white;
+    transform: translate(0px,-5px);
+}
+
+.ah{
+    font-family: 'Fredoka One', cursive;
+}
+
+.ap{
+    font-family: 'Courgette', cursive;
+}
+
+.hey{
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.ab{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.mm{
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.top span i{
+    color: white;
+    background-color:black;
+   font-size: 30px;
+   padding: 10px;
+   border-radius: 5px;
+   transition: all 0.7s;
+}
+
+
+.top span i:hover{
+    background-color: white;
+    color: black;
+}
+
+.mm{
+    animation-name: space;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+@keyframes space {
+    0%{
+        letter-spacing: 0px;
+    }
+
+    100%{
+        letter-spacing:10px;
+        
+    }
+}
+
+
+ 
+
+.pro img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: all 1s;
+   
+    
+}
+
+.pro img:hover{
+    border-radius: 45% 0 45% 0;
+    
+}
+
+.pro h3{
+    font-family: 'Carter One', cursive;
+    color: white;
+}
+
+
+.pro .pp{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.pro p{
+    color: black;
+}
+
+
+button {
+    cursor: url('photo/mouse.png'),default;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+  
+  button:hover {
+    background: #c4e201;
+    cursor: url('photo/mouse.png'),default;
+  }
+  
+  button > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+  }
+  
+  button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  
+
+
+
+
+
+
+
+
