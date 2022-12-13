@@ -50,6 +50,11 @@ beauty.addEventListener('click' , ()=>{
    window.location.href='https://osar-website.netlify.app/';
 });
 
+const tic_tac = document.querySelector('.tic_tac');
+tic_tac.addEventListener('click' , ()=>{
+  window.location.href='https://osar-tic.netlify.app/';
+});
+
 const bmw = document.querySelector('.bmw');
 bmw.addEventListener('click' , ()=>{
    window.location.href='https://osar-carweb.netlify.app/';
