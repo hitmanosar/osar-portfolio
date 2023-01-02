@@ -98,9 +98,6 @@ function text() {
   num++;
   ah.textContent = str.slice(0, num);
 
-  if (num > str.length) {
-    num = 0;
-  }
 }
 
 let s1 = setInterval(text, 130);
