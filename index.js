@@ -111,7 +111,7 @@ function txt() {
   num1++;
   ap.textContent = str2.slice(0, num1);
 
-  if (num1 > str2.length) num1 = 0;
+  
 }
 
 setInterval(txt, 90);
