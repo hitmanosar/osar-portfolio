@@ -75,6 +75,13 @@ calculator.addEventListener('click' , ()=>{
    window.location.href='https://osar-calculator.netlify.app/';
 });
 
+const dice = document.querySelector('.dice');
+dice.addEventListener('click' , ()=>{
+   window.location.href='https://osar-dice.netlify.app/';
+});
+
+
+
 const portfolio = document.querySelector('.portfolio');
 portfolio.addEventListener('click' , ()=>{
    window.location.href='index.html';
